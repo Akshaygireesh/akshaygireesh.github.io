@@ -104,7 +104,7 @@
 							var interval = 730;
 							var callSwitch = setInterval(switchText, interval);
 							function switchText() {
-								var wordList = ['Who am I?', 'RTL2GDSII', 'PD Flow', 'Open Source', 'Student', 'Learner', 'FPGA', 'Who am I?', 'IEEE 1800', 'Scripting', 'Political', 'ASICS', 'Engineer', 'Verification', 'Atheist'];
+								var wordList = [ 'RTL2GDSII', 'PD Flow', 'Open Source', 'Student', 'Learner', 'FPGA', 'Who am I?', 'IEEE 1800', 'Scripting', 'Political', 'ASICS', 'Engineer', 'Verification', 'Atheist'];
 								document.getElementById('who').innerHTML = wordList[Math.floor(Math.random() * wordList.length)];
 							}
 						</script>
@@ -174,19 +174,17 @@
 
 				<div class="col tab-full footer-about">
 
-					<h4 class="h05">@ndkshr</h4>
+					<h4 class="h05">@akshaygireesh</h4>
 					<p>
-						I'm an engineering student and programming enthusiast. I love physics, Black Holes are something
-						that I find deeply intriguing. I started coding at the age of 16 and now I am
-						<span id="myAge">
+						 A VLSI domain enthusiast, experimenting with various tools and working upon projects to improve
+						my tech stack.I have been working upon various projects so as to understand the whole of RTL2GDSII flow. As of today
+						iam,
+						<span id="myAge"> of age.
 						</span>.
 					</p>
-					<p>I graduated from Govt. Engineering College Palakkad with Bachelor of Technology (Information
-						Technology major).</p>
-					<p>
-						<strong>I want to be a footballer, sounds crazy, but that is what I am!</strong>
-					</p>
-
+					<p>I graduated from School of Engineering,CUSAT and currently pursuing my masters in VLSI design, from 
+					Amrita University.</p>
+					
 				</div> <!-- end footer-about -->
 
 			</div> <!-- end row -->
@@ -228,7 +226,7 @@
 		function getAge() {
 			var today = new Date();
 			var birthDate = new Date();
-			birthDate.setFullYear(1998, 03, 10);
+			birthDate.setFullYear(1997, 12, 11);
 			var age = today.getFullYear() - birthDate.getFullYear();
 			var m = today.getMonth() - birthDate.getMonth();
 			if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
